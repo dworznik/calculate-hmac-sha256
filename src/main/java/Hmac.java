@@ -23,7 +23,7 @@ public class Hmac {
 
 
     public static boolean checkHmac(String message, String hmac, String secret) throws InvalidKeyException, NoSuchAlgorithmException {
-        return hmac == calculateHmac(message, secret);
+        return hmac.equals(calculateHmac(message, secret));
     }
 
 }
