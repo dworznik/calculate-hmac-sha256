@@ -1,3 +1,5 @@
+package net.bzium.shopify;
+
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
